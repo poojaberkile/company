@@ -3,13 +3,13 @@ var express = require('express');
 var app = express();
 
 var employeeController=function (req, res) {
-  console.log("CAlling rest api");
-  var employeess=[
-            {employeeName:'pooja',age:22,accountno=101},
-          {employeeName:'priyanka',age:22,accountno=101},
-             {employeeName:'soni',age:22,accountno=101},
+  console.log("hello");
+  var employees=[
+            {employeeName:'pooja',age:22,accountNo:101},
+          {employeeName:'priyanka',age:22,accountNo:102},
+             {employeeName:'soni',age:22,accountNo:103},
       ];
-  res.send(users);
+  res.send(employees);
 };
 
 
